@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="7dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_margin="10dp"
+    >
+    <!--android:foreground="?android:attr/selectableItemBackground"  点击出现波浪纹-->
+    <!--CardView_cardBackgroundColor 设置背景色-->
+    <!--CardView_cardCornerRadius 设置圆角大小-->
+    <!--CardView_cardElevation 设置z轴阴影-->
+    <!--CardView_cardMaxElevation 设置z轴最大高度值-->
+    <!--CardView_cardUseCompatPadding 是否使用CompadPadding-->
+    <!--CardView_cardPreventCornerOverlap 是否使用PreventCornerOverlap-->
+    <!--CardView_contentPadding 内容的padding-->
+    <!--CardView_contentPaddingLeft 内容的左padding-->
+    <!--CardView_contentPaddingTop 内容的上padding-->
+    <!--CardView_contentPaddingRight 内容的右padding-->
+    <!--CardView_contentPaddingBottom 内容的底padding-->
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="A"
+        android:textSize="24sp"
+        android:textColor="#ddff5555"/>
+</android.support.v7.widget.CardView>
